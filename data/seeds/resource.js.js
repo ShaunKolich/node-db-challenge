@@ -4,7 +4,7 @@ exports.seed = function(knex, Promise) {
     return knex('resource').insert([
         {
           Name: 'Node JS',
-          Description: 'Show expertese in Node JS',
+          Description: 'Show expertise in Node JS',
           },
           {
           Name: 'Knex',
